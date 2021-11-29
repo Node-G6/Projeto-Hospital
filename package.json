@@ -1,0 +1,26 @@
+{
+  "name": "projeto-hospital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Node-G6/Projeto-Hospital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Node-G6/Projeto-Hospital/issues"
+  },
+  "homepage": "https://github.com/Node-G6/Projeto-Hospital#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "mongodb": "^4.2.0",
+    "node-localstorage": "^2.2.1"
+  }
+}
