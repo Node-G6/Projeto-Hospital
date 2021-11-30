@@ -35,3 +35,7 @@ app.use(express.static(__dirname + '/public'))
 app.get('/', (req,res) => {
     res.render('home')
 })
+
+app.listen(porta, (req,res) =>{
+    console.log('Servidor Rodando na porta: ' + porta)
+})

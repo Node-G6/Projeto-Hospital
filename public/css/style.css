@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Montserrat:wght@500&display=swap%27%27');
+
+.navbar{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-weight: bolder;
+    color: #23A6F0 !important;
+    font-size: 1.5rem;
+}
+#cad{
+    background-color: #23A6F0;
+    border: none;
+}
+#log{
+    color: #23A6F0 !important;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#23A6F0 !important;
+}
+
+#cad:hover{
+    box-shadow: 1px 3px 3px rgb(180, 180, 180) !important;
+}
