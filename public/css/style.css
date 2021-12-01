@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Montserrat:wght@500&display=swap%27%27');
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-weight: bolder;
+    color: #23A6F0 !important;
+    font-size: 1.5rem;
+}
+#cad{
+    background-color: #23A6F0;
+    border: none;
+}
+#log{
+    color: #23A6F0 !important;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#23A6F0 !important;
+}
+
+#cad:hover{
+    box-shadow: 1px 3px 3px rgb(180, 180, 180) !important;
+}
+
+
+
+
+/* Home-Planos */
+
+
+.title-plan{
+    margin-top: 50px;
+}
+
+#sub-card{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #23A6F0;
+}
+
+#tituloCard{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.1rem;
+    color: #252B42;
+}
+
+#text-card{
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    font-size: 0.9rem;
+}
+
+#quebraLinha{
+    display: block;
+}
+
+.card-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 18rem;
+    height: 51.5rem;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 2px 3px 2px 0px rgba(185, 185, 185, 0.267);
+}
+
+.container-card{
+    width: 80%;
+}
+
+.img-plan{
+    width: 26%;
+    margin-top: 44px;
+    margin-left: 5px;
+}
+
+#tituloPlano{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-text{
+    width: 200px;
+}
+
+.valor{
+    margin-top: 50px;
+}
+
+#valor{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: #23A6F0;
+}
+#valorMes{
+    position: relative;
+    top: -22px;
+    left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #8EC2F2;
+}
+
+.text2-card{
+    color: #737373;
+    margin-top: 20px;
+}
+
+#btn-assinar{
+    width: 100%;
+    background-color: #23A6F0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #23A6F0;
+    border: none;
+    margin-top: 20px;
+}
+
+#btn-assinar:hover{
+    box-shadow: 1px 3px 3px rgb(180, 180, 180) !important;
+}
+
+#text3-card{
+    margin-top: 25px;
+}
+
+.img-text{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.text-img{
+    margin-left: 7px;
+}
+
+.linha-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#new{
+    position: absolute;
+}
+
+.linhaPlano{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 0px){
+    #new{
+        width: 60px;
+        top: -3%;
+        left: 80%;
+    }
+}
+
+@media (min-width: 576px){
+    #new{
+        top: -6%;
+        left: 81%;
+        width: 89px;
+    }
+}
+
+@media (min-width: 768px){
+    #new{
+        top: -6%;
+        left: 81%;
+    }
+}
+
+@media (min-width: 992px){
+    .col-lg-3{
+        width: 31%;
+    }
+}
+
+@media (min-width: 992px){
+    #new{
+        top: -6%;
+        left: 73%;
+    }
+}
+
+@media (min-width: 1200px){
+    #new{
+        top: -6%;
+        left: 81%;
+    }
+}
+
+@media screen and (max-width: 508px){   
+    #quebraLinha{
+        display: inline;
+    }
+}
+
