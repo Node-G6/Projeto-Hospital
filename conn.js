@@ -1,5 +1,5 @@
 const mongodb = require('mongodb').MongoClient
-const url = 'mongodb+srv://soulcodeg6:14253614@cluster0.4qnzd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const url = 'insira o link do seu banco de dados'
 
 const client = new mongodb(url)
 
