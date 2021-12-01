@@ -25,7 +25,7 @@ app.engine('handlebars', hbs.engine)
 app.set('view engine', 'handlebars')
 
 //o tráfego de dados pode ser por string
-app.use(express.urlencoded())
+app.use(express.urlencoded({extended: true}))
 //o tráfego de dados pode ser por objetos json
 app.use(express.json())
 
