@@ -25,9 +25,6 @@
     box-shadow: 1px 3px 3px rgb(180, 180, 180) !important;
 }
 
-
-
-
 /* Home-Planos */
 
 
@@ -208,5 +205,70 @@
     #quebraLinha{
         display: inline;
     }
+}
+
+/* Home - Newsletter */
+.text-primary{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+    color: #23A6F0 !important;
+    font-size: 14px;
+}
+
+.text-da{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-gray{
+    width: 50%;
+    margin: auto;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    font-size: 14px;
+}
+
+.news-input{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.btn-primary-c{
+    background-color: #23A6F0;
+    border:none;
+    color:white;
+}
+
+.btn-primary-c:hover{
+    background-color:#23A6F0 !important;
+}
+
+/* footer */
+
+.bg-secondary-f{
+    height: 70px;
+    background-color: #f3f3f3;
+}
+
+.social{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;    
+}
+
+.sm{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tf{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Montserrat', sans-serif ;
+    color: #737373;
+    font-size: 14px;    
 }
 
